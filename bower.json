@@ -1,0 +1,27 @@
+{
+  "name": "ngEdmodo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sumanthio/ngEdmodo",
+  "authors": [
+    "sumanthio <sumanthp544@gmail.com>"
+  ],
+  "description": "Package: Angular Directive for Edmodo Integration",
+  "main": "edmodoLogin.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Angular",
+    "Edmodo",
+    "Third-party",
+    "Integretion"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

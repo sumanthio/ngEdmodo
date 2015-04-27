@@ -7,9 +7,6 @@
   ],
   "description": "Package: Angular Directive for Edmodo Integration",
   "main": "edmodoLogin.js",
-  "moduleType": [
-    "globals"
-  ],
   "keywords": [
     "Angular",
     "Edmodo",

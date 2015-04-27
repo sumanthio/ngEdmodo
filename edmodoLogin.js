@@ -19,9 +19,10 @@ angular.module('ngEdmodo', []).
             '</button>'+
             '</a>',
             link: function (scope, element, attrs) {
-                scope.clientId = "";
-                scope.redirectURI="";
-                /*Cases for your envirnments.... to change the key and secret dynamically...!*/
+                scope.clientId = ""; //Your  app's id
+                scope.redirectURI="";// Your app's callback
+
+                /*Cases for your environments.... to change the key and secret dynamically...!*/
                 switch (window.location.protocol+'//'+window.location.host){
                     case ('http://yourapp'):
                         scope.clientId = /*"Your Application id given by Edmodo"*/;
